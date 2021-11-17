@@ -17,3 +17,4 @@ Our libraries are
 
 * [`cdav-library`](https://github.com/nextcloud/cdav-library)
 * [`@nextcloud/calendar-js`](https://github.com/nextcloud/calendar-js)
+* [`@nextcloud/calendar-availability-vue`](https://github.com/nextcloud/calendar-availability-vue )
