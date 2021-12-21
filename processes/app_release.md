@@ -25,7 +25,7 @@
 
 9. git push origin release/x.x.x and open a new PR against the target branch (stablex.xx or master/main)
 
-10. Once merged, git pull the latest changes
+10. Once merged, switch back to the target branch and git pull the latest changes
 
 11. git tag vx.x.x
 
