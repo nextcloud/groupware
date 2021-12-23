@@ -12,7 +12,7 @@ The Groupware team is dedicated to improving and maintaining all groupware aspec
 
 The code and information is spread across multiple repositories. The following list shows where the main bits and pieces can be found.
 
-* [CalDAV and CardDAV](https://github.com/nextcloud/server/tree/master/apps/dav)
+* [CalDAV and CardDAV backends](https://github.com/nextcloud/server/tree/master/apps/dav)
 * [Calendar](https://github.com/nextcloud/calendar)
 * [Calendar Resource Management](https://github.com/nextcloud/calendar_resource_management)
 * [Contacts](https://github.com/nextcloud/contacts)

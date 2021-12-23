@@ -14,13 +14,15 @@ tbd
 
 <!-- remove unaffected components from the list -->
 
+* CalDAV and CardDAV backends
 * Calendar
 * Calendar Resource Management
 * Contacts
+* Contacts Interaction
 * Mail
-* `cdav-library`
 * `@nextcloud/calendar-availability-vue`
 * `@nextcloud/calendar-js`
+* `@nextcloud/cdav-library`
 
 ## To do
 
