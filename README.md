@@ -8,6 +8,15 @@ The purpose of this repo is primarily to be able to create tickets for tasks tha
 
 The Groupware team is dedicated to improving and maintaining all groupware aspects inside the Nextcloud ecosystem.
 
+### Members
+
+* [Anna Larch](https://github.com/miaulalala)
+* [Christoph Wurst](https://github.com/ChristophWurst)
+* [Daniel Kesselberg](https://github.com/kesselb)
+* [Greta Doçi](https://github.com/GretaD)
+* [Richard Steinmetz](https://github.com/st3iny)
+* [Thomas Citharel](https://github.com/tcitworld)
+
 ### Components
 
 The code and information is spread across multiple repositories. The following list shows where the main bits and pieces can be found.
