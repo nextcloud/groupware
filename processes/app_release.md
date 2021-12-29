@@ -5,7 +5,7 @@
 
 1. Change directory to the app directory and make sure your environment is clean with git status
 
-2. git checkout stablex.x (patch release) or master/main (major/minor release) (this is the branch we want to release)
+2. For patch release do git checkout stablex.x (the latest stable version you have) or master/main for major/minor release (this is the branch we want to release)
 
 3. git pull to have the latest changes
 
