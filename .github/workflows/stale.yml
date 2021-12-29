@@ -2,7 +2,7 @@ name: 'Close stale issues and PRs'
 on:
   workflow_dispatch:
   schedule:
-    - cron: '14 * * * *'
+    - cron: '0 3 * * *'
 
 jobs:
   stale:
@@ -11,11 +11,11 @@ jobs:
       - uses: actions/stale@v4
         with:
           debug-only: true
-          stale-issue-message: 'This ticket has not shown any activity recently. @ChristophWurst please adjust the labels if this ticket should stay open.'
+          stale-issue-message: 'This ticket has not shown any activity recently. @ChristophWurst please adjust the labels if this ticket should stay open and close it otherwise.'
           stale-pr-message: 'This ticket is closed due to lack of activity.'
           stale-issue-label: 'stale'
           exempt-issue-labels: '1. to develop'
-          days-before-stale: 1
-          days-before-close: 14
+          days-before-stale: 21
+          days-before-close: 35
           operations-per-run: 10
           enable-statistics: true
