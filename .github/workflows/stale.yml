@@ -1,7 +1,7 @@
 name: 'Close stale issues and PRs'
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: '14 * * * *'
 
 jobs:
   stale:
@@ -16,3 +16,5 @@ jobs:
           exempt-issue-labels: '1. to develop'
           days-before-stale: 1
           days-before-close: 14
+          operations-per-run: 10
+          enable-statistics: true
