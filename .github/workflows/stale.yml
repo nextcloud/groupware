@@ -13,7 +13,7 @@ jobs:
           stale-issue-message: 'This ticket has not shown any activity recently. @ChristophWurst please adjust the labels if this ticket should stay open and close it otherwise.'
           stale-pr-message: 'This ticket is closed due to lack of activity.'
           stale-issue-label: 'stale'
-          exempt-issue-labels: '1. to develop'
+          exempt-issue-labels: '1. to develop,2. developing,3. to review,4. to release'
           days-before-stale: 21
           days-before-close: 35
           operations-per-run: 10
