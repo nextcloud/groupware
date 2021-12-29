@@ -10,7 +10,6 @@ jobs:
     steps:
       - uses: actions/stale@v4
         with:
-          debug-only: true
           stale-issue-message: 'This ticket has not shown any activity recently. @ChristophWurst please adjust the labels if this ticket should stay open and close it otherwise.'
           stale-pr-message: 'This ticket is closed due to lack of activity.'
           stale-issue-label: 'stale'
