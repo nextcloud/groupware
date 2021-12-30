@@ -14,13 +14,14 @@ jobs:
           days-before-issue-stale: 21
           days-before-issue-close: 35
           stale-issue-label: 'stale'
-          stale-issue-message: 'This ticket had no activity recently. @ChristophWurst please adjust the labels if this ticket should stay open and close it otherwise.'
+          stale-issue-message: 'This ticket had no activity recently. @ChristophWurst please adjust the labels if this ticket should stay open and close it otherwise. [Learn more about the stale process](https://github.com/nextcloud/groupware/blob/main/processes/stale_issues_and_prs.md)'
+          close-issue-message: 'This ticket had no activity for a while, so we close it. If there was information missing on a bug report, we can re-open once the info is provided. [Learn more about the stale process](https://github.com/nextcloud/groupware/blob/main/processes/stale_issues_and_prs.md)'
           exempt-issue-labels: '1. to develop,2. developing,3. to review,4. to release'
           # PRs
           days-before-pr-stale: 7
           days-before-pr-close: 180
           stale-pr-label: 'stale'
-          stale-pr-message: 'This pull request needs attention. @ChristophWurst have a look please!'
+          stale-pr-message: 'This pull request needs attention. @ChristophWurst have a look please! [Learn more about the stale process](https://github.com/nextcloud/groupware/blob/main/processes/stale_issues_and_prs.md)'
+          close-pr-message: 'This pull request had no activity for a while, so we close it. If the changes are still applicable and should be integrated, please get in contact with the maintainers, they can reopen. [Learn more about the stale process](https://github.com/nextcloud/groupware/blob/main/processes/stale_issues_and_prs.md)'
           # Other config
-          operations-per-run: 10
           enable-statistics: true
