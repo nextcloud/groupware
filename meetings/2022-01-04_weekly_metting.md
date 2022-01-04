@@ -1,4 +1,4 @@
-# Meeting title
+# Weekly Meeting
 
 ## Attendees
 
