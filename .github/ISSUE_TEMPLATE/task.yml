@@ -1,0 +1,34 @@
+name: "Task"
+description: "Create new meta task"
+labels: ["overview", "1. to develop"]
+body:
+  - type: textarea
+    id: task-descr
+    attributes:
+      label: Describe the task
+      description: Describe the task
+    validations:
+      required: true
+  - type: dropdown
+    id: components-affected
+    attributes:
+      label: Affected components
+      description: Select **all** the components that need to be changed.
+      multiple: true
+      options:
+        - Calendar
+        - Calendar Resource Management
+        - Contacts
+        - Mail
+        - cdav-library
+        - nextcloud/calendar-availability-vue
+        - nextcloud/calendar-js
+  - type: textarea
+    id: to-do
+    attributes:
+      label: To do
+      description: Add your task list here
+      value: |
+        - [ ]
+    validations:
+      required: true
