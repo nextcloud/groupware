@@ -29,9 +29,10 @@
 
 13. `git tag vx.x.x`
 
-14. `git push origin stablex.x vx.x.x` (this means we push the commit + tags)
+14. `git push origin stablex.x vx.x.x` (this means we push the commit + tag)
 15. Run `git push release stablex.x vx.x.x` to push it also to the release remote
-16. If the case is a minor or major version, you need to branch off this minor or major release: `git checkout -b  stablex.x` then do `git push origin stablex.x`
+    15.1 In case you're releasing from `main`, only push the tag to the release remote: `git push release vx.xx.xx`
+17. If the case is a minor or major version, you need to branch off this minor or major release: `git checkout -b  stablex.x` then do `git push origin stablex.x`
 
 17. We go to the release's repository tags page, e.g. https://github.com/nextcloud-releases/mail/tags
 
