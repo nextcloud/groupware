@@ -30,9 +30,10 @@
 13. `git tag vx.x.x`
 
 14. `git push origin stablex.x vx.x.x` (this means we push the commit + tag)
-15. Run `git push release stablex.x vx.x.x` to push it also to the release remote
+15. Run `git push release stablex.x vx.x.x` to push it also to the release remote 
+
     15.1 In case you're releasing from `main`, only push the tag to the release remote: `git push release vx.xx.xx`
-17. If the case is a minor or major version, you need to branch off this minor or major release: `git checkout -b  stablex.x` then do `git push origin stablex.x`
+16. If the case is a minor or major version, you need to branch off this minor or major release: `git checkout -b  stablex.x` then do `git push origin stablex.x`
 
 17. We go to the release's repository tags page, e.g. https://github.com/nextcloud-releases/mail/tags
 
@@ -45,4 +46,4 @@
 18. Open the app's main repo and close the vx.y.z milestone (Issues -> Milestones in the Right Upper Corner)
 19. Create a milestone for the next patch/major/minor version
 20. After branch off, you need to create a new separate PR against main to change the `info.xml` version to x.x.0-alpha.1, so add the suffix `-alpha.1` to your branch off release version
-21. If the release was for patch version, forward-port the changelog to master/main (`git checkout stablex.x CHANGELOG.md`)
+21. If the release was for patch version, forward-port the changelog to master/main. Open a PR against main with the section of the changelog of your current release. Push it and after merge you're done.
