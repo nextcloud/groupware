@@ -47,3 +47,19 @@
 19. Create a milestone for the next patch/major/minor version
 20. After branch off, you need to create a new separate PR against main to change the `info.xml` version to x.x.0-alpha.1, so add the suffix `-alpha.1` to your branch off release version
 21. If the release was for patch version, forward-port the changelog to master/main. Open a PR against main with the section of the changelog of your current release. Push it and after merge you're done.
+## Process of the pre-release
+#### alpha and beta have the same steps, just replace alpha with beta on steps below
+1. Do git checkout main
+2. Change info.xml and CHANGELOG.MD
+
+   2.1. Do `git log v1.2.3..HEAD --oneline | grep -v "Merge "` - v1.2.3 is the last release
+3. git tag v1.2.3-alpha1(or 2/3/4/5..)
+4. git push origin v1.2.3-alpha1(or 2/3/4/5..)
+5. git push release v1.2.3-alpha1(or 2/3/4/5..)
+6. We go to the release's repository tags page, e.g. https://github.com/nextcloud-releases/mail/tags
+
+   6.1 On the draft we add the tag we created, add the change log and publish the release
+
+   6.2 Wait a few minutes for the automation to build the app
+
+   6.3 The package will be automatically built and attached to the new release
