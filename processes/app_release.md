@@ -1,14 +1,15 @@
 ## App release commands
+
 #### Below you will find step by step how to do a release for groupware apps
+
 ## Preparation 
 1. Change directory to the app directory and make sure your environment is clean with `git status`
 2. Check if you have the remote release by running `git remote -v` if that points to `git@github.com:nextcloud-releases/AppName.git`, you're good
 3. If you don't see that in the list, do `git remote add release git@github.com:nextcloud-releases/AppName.git`
+
 ## Process of the release
 4. For patch release do `git checkout stablex.x` (the latest stable version you have) or master/main for major/minor release (this is the branch we want to release)
-
 5. `git pull` to have the latest changes
-
 6. `git log v1.2.3..HEAD --oneline` - this shows all the commits from version v1.2.3 (last release) to HEAD (latest unreleased commit)
 
     6.1 To ignore the "Merge .." commit you do `git log v1.2.3..HEAD --oneline | grep -v "Merge "`
@@ -60,3 +61,15 @@
    6.1 On the draft we add the tag we created, add the change log and publish the release
    6.2 Wait a few minutes for the automation to build the app
    6.3 The package will be automatically built and attached to the new release 
+
+## Naming Conventions
+
+1) appinfo.xml:
+   - Regular Release `1.2.3`
+   - Release Candidate: `1.2.3-rc.1`
+   - Alpha / Beta:  `1.2.3-alpha.1`, `1.2.3-beta.1`
+2) package.json and package-lock.json: `1.2.3`
+4) git tag: 
+   - Regular Release `v1.2.3`
+   - Release Candidate: `v1.2.3-rc1`
+   - Alpha / Beta:  `v1.2.3-alpha1`, `v1.2.3-beta1`
