@@ -58,9 +58,9 @@
 5. git push release v1.2.3-alpha1(or 2/3/4/5..)
 6. We go to the release's repository tags page, e.g. https://github.com/nextcloud-releases/mail/tags
 
-   6.1 On the draft we add the tag we created, add the change log and publish the release
-   6.2 Wait a few minutes for the automation to build the app
-   6.3 The package will be automatically built and attached to the new release 
+   6.1 On the draft we add the tag we created, add the change log, tick the "This is a pre- release" checkbox and publish the release  
+   6.2 Wait a few minutes for the automation to build the app  
+   6.3 The package will be automatically built and attached to the new release   
 
 ## Naming Conventions
 
