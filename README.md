@@ -14,6 +14,7 @@ The Groupware team is dedicated to improving and maintaining all groupware aspec
 * [Christoph Wurst](https://github.com/ChristophWurst)
 * [Daniel Kesselberg](https://github.com/kesselb)
 * [Greta Doçi](https://github.com/GretaD)
+* [Hamza](https://github.com/hamza221)
 * [Julia Kirschenheuter](https://github.com/JuliaKirschenheuter)
 * [Richard Steinmetz](https://github.com/st3iny)
 * [Thomas Citharel](https://github.com/tcitworld)
