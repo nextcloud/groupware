@@ -32,3 +32,4 @@ The code and information is spread across multiple repositories. The following l
 * [`@nextcloud/calendar-availability-vue`](https://github.com/nextcloud/calendar-availability-vue )
 * [`@nextcloud/calendar-js`](https://github.com/nextcloud/calendar-js)
 * [`@nextcloud/cdav-library`](https://github.com/nextcloud/cdav-library)
+* [`@nextcloud/timezones`](https://github.com/nextcloud-libraries/timezones)
