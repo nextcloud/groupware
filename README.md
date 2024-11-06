@@ -27,9 +27,9 @@ The code and information is spread across multiple repositories. The following l
 
 | Component | Maintainers | Release manager |
 |-----------|-------------|-----------------|
-| [CalDAV and CardDAV backends](https://github.com/nextcloud/server/tree/master/apps/dav) | Anna, Richard, Sebastian | Server team |
-| [Calendar](https://github.com/nextcloud/calendar) | Anna, Richard, Thomas | Anna |
-| [Calendar Resource Management](https://github.com/nextcloud/calendar_resource_management) | Anna, Richard | Richard |
+| [CalDAV and CardDAV backends](https://github.com/nextcloud/server/tree/master/apps/dav) | Richard, Sebastian | Server team |
+| [Calendar](https://github.com/nextcloud/calendar) | Richard, Sebastian, Thomas | Sebastian |
+| [Calendar Resource Management](https://github.com/nextcloud/calendar_resource_management) | Richard, Sebastian | Richard |
 | [Contacts](https://github.com/nextcloud/contacts) | Grigory, Hamza, Sebastian | Hamza |
 | [Contacts Interaction](https://github.com/nextcloud/server/tree/master/apps/contactsinteraction) | Daniel, Sebastian | Server team |
 | [Mail](https://github.com/nextcloud/mail) | Christoph, Daniel, Greta | Christoph |
