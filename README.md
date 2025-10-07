@@ -10,7 +10,6 @@ The Groupware team is dedicated to improving and maintaining all groupware aspec
 
 ### Members
 
-* [Anna Larch](https://github.com/miaulalala)
 * [Christoph Wurst](https://github.com/ChristophWurst)
 * [Daniel Kesselberg](https://github.com/kesselb)
 * [Greta Doçi](https://github.com/GretaD)
@@ -34,14 +33,14 @@ The code and information is spread across multiple repositories. The following l
 | [Contacts Interaction](https://github.com/nextcloud/server/tree/master/apps/contactsinteraction) | Daniel, Sebastian | Server team |
 | [Mail](https://github.com/nextcloud/mail) | Christoph, Daniel, Greta | Christoph |
 | [`@nextcloud/calendar-availability-vue`](https://github.com/nextcloud/calendar-availability-vue ) | Greta, Grigory | Greta |
-| [`@nextcloud/calendar-js`](https://github.com/nextcloud/calendar-js) | Grigory, Richard | Grigory |
-| [`@nextcloud/cdav-library`](https://github.com/nextcloud/cdav-library) | Hamza, Richard | Richard |
-| [`@nextcloud/timezones`](https://github.com/nextcloud-libraries/timezones) | Greta, Richard | Richard |
+| [`@nextcloud/calendar-js`](https://github.com/nextcloud/calendar-js) | Grigory, Sebastian | Grigory |
+| [`@nextcloud/cdav-library`](https://github.com/nextcloud/cdav-library) | Hamza, Sebastian | Hamza |
+| [`@nextcloud/timezones`](https://github.com/nextcloud-libraries/timezones) | Greta, Pablo | Pablo |
 | [`nextcloud/kitinerary`](https://github.com/nextcloud-libraries/kitinerary) | Christoph, Daniel | Daniel |
 | [`nextcloud/kitinerary-bin`](https://github.com/nextcloud-libraries/kitinerary-bin) | Christoph, Daniel | Daniel |
 | [`nextcloud/kitinerary-flatpak`](https://github.com/nextcloud-libraries/kitinerary-flatpak) | Christoph, Daniel | Daniel |
 | [`nextcloud/kitinerary-sys`](https://github.com/nextcloud-libraries/kitinerary-sys) | Christoph, Daniel | Daniel |
-| [Roundcube](https://github.com/roundcube/roundcubemail) | [Alec](https://github.com/alecpl), Pablo, Anna | [Alec](https://github.com/alecpl), Pablo |
+| [Roundcube](https://github.com/roundcube/roundcubemail) | [Alec](https://github.com/alecpl), Pablo | [Alec](https://github.com/alecpl), Pablo |
 
 #### Roles explained
 
