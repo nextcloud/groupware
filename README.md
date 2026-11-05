@@ -12,13 +12,12 @@ The Groupware team is dedicated to improving and maintaining all groupware aspec
 
 * [Christoph Wurst](https://github.com/ChristophWurst)
 * [Daniel Kesselberg](https://github.com/kesselb)
+* [David Dreschner](https://github.com/derdreschner)
 * [Greta Doçi](https://github.com/GretaD)
 * [Grigory Vodyanov](https://github.com/GVodyanov)
-* [Hamza](https://github.com/hamza221)
-* [Pablo](https://github.com/pabzm)
-* [Richard Steinmetz](https://github.com/st3iny)
+* [Hamza Mahjoubi](https://github.com/hamza221)
+* [Oleksandr Dzhychko](https://github.com/odzhychko)
 * [Sebastian Krupinski](https://github.com/SebastianKrupinski)
-* [Thomas Citharel](https://github.com/tcitworld)
 
 ### Components and roles
 
@@ -26,21 +25,21 @@ The code and information is spread across multiple repositories. The following l
 
 | Component | Maintainers | Release manager |
 |-----------|-------------|-----------------|
-| [CalDAV and CardDAV backends](https://github.com/nextcloud/server/tree/master/apps/dav) | Richard, Sebastian | Server team |
-| [Calendar](https://github.com/nextcloud/calendar) | Richard, Sebastian, Thomas | Sebastian |
-| [Calendar Resource Management](https://github.com/nextcloud/calendar_resource_management) | Richard, Sebastian | Richard |
-| [Contacts](https://github.com/nextcloud/contacts) | Grigory, Hamza, Sebastian | Hamza |
+| [CalDAV and CardDAV backends](https://github.com/nextcloud/server/tree/master/apps/dav) | Sebastian, Hamza | Server team |
+| [Calendar](https://github.com/nextcloud/calendar) | Sebastian, Grigory, Oleksandr | Sebastian |
+| [Calendar Resource Management](https://github.com/nextcloud/calendar_resource_management) | Sebastian, Oleksandr | Sebastian |
+| [Contacts](https://github.com/nextcloud/contacts) | Hamza, Grigory, Oleksandr | Hamza |
 | [Contacts Interaction](https://github.com/nextcloud/server/tree/master/apps/contactsinteraction) | Daniel, Sebastian | Server team |
-| [Mail](https://github.com/nextcloud/mail) | Christoph, Daniel, Greta | Christoph |
+| [Mail](https://github.com/nextcloud/mail) | Christoph, Daniel, David, Greta | Christoph |
 | [`@nextcloud/calendar-availability-vue`](https://github.com/nextcloud/calendar-availability-vue ) | Greta, Grigory | Greta |
 | [`@nextcloud/calendar-js`](https://github.com/nextcloud/calendar-js) | Grigory, Sebastian | Grigory |
 | [`@nextcloud/cdav-library`](https://github.com/nextcloud/cdav-library) | Hamza, Sebastian | Hamza |
-| [`@nextcloud/timezones`](https://github.com/nextcloud-libraries/timezones) | Greta, Pablo | Pablo |
+| [`@nextcloud/timezones`](https://github.com/nextcloud-libraries/timezones) | Oleksandr, Sebastian | Oleksandr |
 | [`nextcloud/kitinerary`](https://github.com/nextcloud-libraries/kitinerary) | Christoph, Daniel | Daniel |
 | [`nextcloud/kitinerary-bin`](https://github.com/nextcloud-libraries/kitinerary-bin) | Christoph, Daniel | Daniel |
 | [`nextcloud/kitinerary-flatpak`](https://github.com/nextcloud-libraries/kitinerary-flatpak) | Christoph, Daniel | Daniel |
 | [`nextcloud/kitinerary-sys`](https://github.com/nextcloud-libraries/kitinerary-sys) | Christoph, Daniel | Daniel |
-| [Roundcube](https://github.com/roundcube/roundcubemail) | [Alec](https://github.com/alecpl), Pablo | [Alec](https://github.com/alecpl), Pablo |
+| [Suspicious Login](https://github.com/nextcloud/suspicious_login) | David, Christoph | Server team |
 
 #### Roles explained
 
