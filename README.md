@@ -33,8 +33,8 @@ The code and information is spread across multiple repositories. The following l
 | [Contacts Interaction](https://github.com/nextcloud/server/tree/master/apps/contactsinteraction) | Daniel, Sebastian | Server team |
 | [Mail](https://github.com/nextcloud/mail) | Christoph, Daniel, David, Greta | Christoph |
 | [`@nextcloud/calendar-availability-vue`](https://github.com/nextcloud/calendar-availability-vue ) | Greta, Grigory | Greta |
+| [`@nextcloud/calendar-integration`](https://github.com/nextcloud-libraries/nextcloud-calendar-integration) | Oleksandr, Grigory | Oleksandr |
 | [`@nextcloud/calendar-js`](https://github.com/nextcloud/calendar-js) | Grigory, Sebastian | Grigory |
-| [`nextcloud-libraries/nextcloud-calendar`](https://github.com/nextcloud-libraries/nextcloud-calendar) | Oleksandr, Grigory | Oleksandr |
 | [`@nextcloud/cdav-library`](https://github.com/nextcloud/cdav-library) | Hamza, Sebastian | Hamza |
 | [`@nextcloud/timezones`](https://github.com/nextcloud-libraries/timezones) | Oleksandr, Sebastian | Oleksandr |
 | [`nextcloud/kitinerary`](https://github.com/nextcloud-libraries/kitinerary) | Christoph, Daniel | Daniel |
