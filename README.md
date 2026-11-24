@@ -12,13 +12,13 @@ The Groupware team is dedicated to improving and maintaining all groupware aspec
 
 * [Christoph Wurst](https://github.com/ChristophWurst)
 * [Daniel Kesselberg](https://github.com/kesselb)
+* [David Dreschner](https://github.com/derdreschner)
 * [Greta Doçi](https://github.com/GretaD)
 * [Grigory Vodyanov](https://github.com/GVodyanov)
-* [Hamza](https://github.com/hamza221)
-* [Pablo](https://github.com/pabzm)
-* [Richard Steinmetz](https://github.com/st3iny)
+* [Hamza Mahjoubi](https://github.com/hamza221)
+* [Oleksandr Dzhychko](https://github.com/odzhychko)
+* [Roberto Guido](https://github.com/madbob)
 * [Sebastian Krupinski](https://github.com/SebastianKrupinski)
-* [Thomas Citharel](https://github.com/tcitworld)
 
 ### Components and roles
 
@@ -26,23 +26,44 @@ The code and information is spread across multiple repositories. The following l
 
 | Component | Maintainers | Release manager |
 |-----------|-------------|-----------------|
-| [CalDAV and CardDAV backends](https://github.com/nextcloud/server/tree/master/apps/dav) | Richard, Sebastian | Server team |
-| [Calendar](https://github.com/nextcloud/calendar) | Richard, Sebastian, Thomas | Sebastian |
-| [Calendar Resource Management](https://github.com/nextcloud/calendar_resource_management) | Richard, Sebastian | Richard |
-| [Contacts](https://github.com/nextcloud/contacts) | Grigory, Hamza, Sebastian | Hamza |
+| [CalDAV and CardDAV backends](https://github.com/nextcloud/server/tree/master/apps/dav) | Sebastian, Hamza | Server team |
+| [Calendar](https://github.com/nextcloud/calendar) | Sebastian, Grigory, Oleksandr | Sebastian |
+| [Calendar Resource Management](https://github.com/nextcloud/calendar_resource_management) | Sebastian, Oleksandr | Sebastian |
+| [Contacts](https://github.com/nextcloud/contacts) | Hamza, Grigory, Oleksandr | Hamza |
 | [Contacts Interaction](https://github.com/nextcloud/server/tree/master/apps/contactsinteraction) | Daniel, Sebastian | Server team |
-| [Mail](https://github.com/nextcloud/mail) | Christoph, Daniel, Greta | Christoph |
+| [Mail](https://github.com/nextcloud/mail) | Christoph, Daniel, David, Greta | Christoph |
 | [`@nextcloud/calendar-availability-vue`](https://github.com/nextcloud/calendar-availability-vue ) | Greta, Grigory | Greta |
 | [`@nextcloud/calendar-js`](https://github.com/nextcloud/calendar-js) | Grigory, Sebastian | Grigory |
+| [`nextcloud-libraries/nextcloud-calendar`](https://github.com/nextcloud-libraries/nextcloud-calendar) | Oleksandr, Grigory | Oleksandr |
 | [`@nextcloud/cdav-library`](https://github.com/nextcloud/cdav-library) | Hamza, Sebastian | Hamza |
-| [`@nextcloud/timezones`](https://github.com/nextcloud-libraries/timezones) | Greta, Pablo | Pablo |
+| [`@nextcloud/timezones`](https://github.com/nextcloud-libraries/timezones) | Oleksandr, Sebastian | Oleksandr |
 | [`nextcloud/kitinerary`](https://github.com/nextcloud-libraries/kitinerary) | Christoph, Daniel | Daniel |
 | [`nextcloud/kitinerary-bin`](https://github.com/nextcloud-libraries/kitinerary-bin) | Christoph, Daniel | Daniel |
 | [`nextcloud/kitinerary-flatpak`](https://github.com/nextcloud-libraries/kitinerary-flatpak) | Christoph, Daniel | Daniel |
 | [`nextcloud/kitinerary-sys`](https://github.com/nextcloud-libraries/kitinerary-sys) | Christoph, Daniel | Daniel |
-| [Roundcube](https://github.com/roundcube/roundcubemail) | [Alec](https://github.com/alecpl), Pablo | [Alec](https://github.com/alecpl), Pablo |
 
 #### Roles explained
 
 * **Maintainers** actively manage issue reports, review and merge pull requests and backport critical fixes. They are explicit *code owners* on Github.
 * **Release managers** ensure that changes are released at the right time, e.g. in short time frame for fixes, or at defined dates for features.
+
+### Apps maintained outside of groupware
+
+Next to the groupware components listed above, engineers of the groupware team also maintain the following apps that are not part of groupware. Only groupware engineers are listed, with their role as maintainer or co-maintainer of the app:
+
+| App | Maintainer | Co-maintainer |
+|-----|------------|---------------|
+| [Email viewer](https://github.com/nextcloud/files_emailviewer) | Oleksandr | Daniel |
+| [Monitoring](https://github.com/nextcloud/serverinfo) | Daniel | external* |
+| [NMC Spica](https://github.com/nextmcloud/nmc_spica) | external* | Daniel |
+| [OAuth 2.0](https://github.com/nextcloud/server/tree/master/apps/oauth2) | external* | Christoph |
+| [Polls](https://github.com/nextcloud/polls) | Hamza | external* |
+| [Recommendations](https://github.com/nextcloud/recommendations) | Christoph | external* |
+| [Suspicious Login](https://github.com/nextcloud/suspicious_login) | David | Christoph |
+| [Terms of service](https://github.com/nextcloud/terms_of_service) | Greta | external* |
+| [Two-Factor admin](https://github.com/nextcloud/twofactor_admin) | external* | Christoph |
+| [Two-Factor backup codes](https://github.com/nextcloud/server/tree/master/apps/twofactor_backupcodes) | Christoph | external* |
+| [Two-Factor TOTP Provider](https://github.com/nextcloud/twofactor_totp) | Christoph | external* |
+| [Two-Factor WebAuthn](https://github.com/nextcloud/twofactor_webauthn) | Christoph | Daniel |
+
+\* *external*: maintained by someone outside the groupware team, so not listed here.
